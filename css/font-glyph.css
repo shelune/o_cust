@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'ucast-glyphs';
+    src:url('../fonts/ucast-glyphs.woff') format('woff'),
+        url('../fonts/ucast-glyphs.svg#ucast-glyphs') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+    font-family: 'ucast-glyphs';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="ucast-glyph-"] {
+*/
+.ucast-glyph-logo, .ucast-glyph-sms, .ucast-glyph-custom, .ucast-glyph-apple, .ucast-glyph-briefcase, .ucast-glyph-cart, .ucast-glyph-charity, .ucast-glyph-church, .ucast-glyph-club, .ucast-glyph-email, .ucast-glyph-jersey, .ucast-glyph-phone, .ucast-glyph-facebook, .ucast-glyph-twitter, .ucast-glyph-optimo-logo, .ucast-glyph-youtube, .ucast-glyph-yt-play-bg, .ucast-glyph-yt-play-arrow, .ucast-glyph-untitled, .ucast-glyph-checkmark, .ucast-glyph-event, .ucast-glyph-agency {
+    font-family: 'ucast-glyphs';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.ucast-glyph-logo:before {
+    content: "\e000";
+}
+.ucast-glyph-sms:before {
+    content: "\e001";
+}
+.ucast-glyph-custom:before {
+    content: "\e002";
+}
+.ucast-glyph-apple:before {
+    content: "\e003";
+}
+.ucast-glyph-briefcase:before {
+    content: "\e004";
+}
+.ucast-glyph-cart:before {
+    content: "\e005";
+}
+.ucast-glyph-charity:before {
+    content: "\e006";
+}
+.ucast-glyph-church:before {
+    content: "\e007";
+}
+.ucast-glyph-club:before {
+    content: "\e008";
+}
+.ucast-glyph-email:before {
+    content: "\e009";
+}
+.ucast-glyph-jersey:before {
+    content: "\e00a";
+}
+.ucast-glyph-phone:before {
+    content: "\e00b";
+}
+.ucast-glyph-facebook:before {
+    content: "\e00c";
+}
+.ucast-glyph-twitter:before {
+    content: "\e00d";
+}
+.ucast-glyph-optimo-logo:before {
+    content: "\e00e";
+}
+.ucast-glyph-youtube:before {
+    content: "\e00f";
+}
+.ucast-glyph-yt-play-bg:before {
+    content: "\e010";
+}
+.ucast-glyph-yt-play-arrow:before {
+    content: "\e011";
+}
+.ucast-glyph-untitled:before {
+    content: "\e012";
+}
+.ucast-glyph-checkmark:before {
+    content: "\e013";
+}
+.ucast-glyph-event:before {
+    content: "\e014";
+}
+.ucast-glyph-agency:before {
+    content: "\e015";
+}
