@@ -118,6 +118,7 @@ ul {
 
 .top-content {
     margin-top: 1px;
+    background: url('../img/top-bg.png') 0px bottom repeat-x;
 }
 
 .top-content__header {
@@ -169,6 +170,53 @@ ul {
     padding: 11px 18px 11px 18px;
 }
 
+.top-content__hero {
+    padding-top: 116.5px;
+}
+
+.top-content__hero h1 {
+    color: #fff;
+    font-size: 82.4px;
+    text-align: center;
+    letter-spacing: -5px;
+    line-height: 82.4px;
+}
+
+.emphasis {
+    color: #C39D5A;
+}
+
+.hero__hero-img {
+    text-align: center;
+    margin-top: -14px;
+    background: url('../img/hero.png') center 75% no-repeat;
+    height: 366px;
+}
+
+.hero__steps {
+    color: #fff;
+    font-size: 20.6px;
+    margin-top: 206px;
+}
+
+.hero__steps dt {
+    color: #fff;
+    font-size: 39.1px;
+    font-weight: 500;
+    float: left;
+    border-radius: 30.7px;
+    padding: 19.6px;
+    padding-top: 17.2px;
+    line-height: 30.5px;
+    margin-left: 57.5px;
+}
+
+.hero__steps dd {
+    color: #B0B0B0;
+    float: left;
+    width: 36%;
+    font-size: 19.56px;
+}
 
 
 
