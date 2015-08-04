@@ -196,28 +196,46 @@ ul {
 .hero__steps {
     color: #fff;
     font-size: 20.6px;
-    margin-top: 206px;
+    position: relative;
+    padding-top: 41px;
+    padding-bottom: 185px;
 }
 
 .hero__steps dt {
     color: #fff;
-    font-size: 39.1px;
+    font-size: 39.1399955749512px;
     font-weight: 500;
     float: left;
     border-radius: 30.7px;
-    padding: 19.6px;
-    padding-top: 17.2px;
     line-height: 30.5px;
     margin-left: 57.5px;
+    padding: 19.6px;
+    padding-top: 17.2px;
+    background: #c39d5a;
+    margin-top: 2px;
+}
+
+.hero__steps dt:nth-of-type(2) {
+    margin-left: 63px;
 }
 
 .hero__steps dd {
     color: #B0B0B0;
     float: left;
-    width: 36%;
+    width: 37.5%;
     font-size: 19.56px;
+    font-weight: 500;
+    line-height: 30.4879989624023px;
+    margin-top: 2px;
 }
 
+.hero__steps dd:first-of-type {
+    margin-left: 20px;
+}
+
+.hero__steps dd:nth-of-type(2) {
+    margin-left: 20px;
+}
 
 
 
