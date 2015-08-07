@@ -312,7 +312,7 @@ button.md-blue:hover {
 }
 
 .main-content__features .wrapper:first-child > div {
-    width: 33%;
+    width: 32%;
     padding: 0 15px;
 }
 
@@ -329,15 +329,94 @@ button.md-blue:hover {
 
 .features__push-messages h3 {
     padding-top: 8px;
+    margin-left: -5px;
 }
 
 .features__cross-platform h3 {
     margin-top: 19px;
+    margin-left: -14px;
 }
 
 .features__instant-updates h3 {
     padding-top: 17px;
+    margin-left: -20.5px;
 }
+
+.features__push-messages p {
+    margin-top: -4px;
+    margin-left: -4px;
+}
+
+.features__cross-platform p {
+    margin-top: -3px;
+    margin-left: -8px;
+}
+
+.features__instant-updates p {
+    margin-top: -4px;
+    margin-left: -10px;
+}
+
+.features__push-messages {
+    margin-right: 5px;
+} §
+
+.features__cross-platform {
+    margin-left: -7px;
+}
+
+.features__cross-platform img {
+    margin-left: -15px;
+}
+
+.features__push-messages img {
+    margin-left: -4px;
+}
+
+.features__instant-updates img {
+    margin-left: -21.5px;
+}
+
+.features__others h3 {
+    color: #9a9a9a;
+    font-size: 21.423999786377px;
+    font-weight: 400;
+    margin-top: 29px;
+}
+
+.features__others ul {
+    padding-top: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: row;
+    -webkit-flex: row wrap;
+    -ms-flex: row wrap;
+    flex: row wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.features__others i {
+    color: #4590ab;
+    font-size: 29.6639995574951px;
+}
+
+.features__others p {
+    text-align: center;
+    font-size: 14.1728000640869px;
+    color: #7e7e7e;
+    margin: 7.08640003204346px 0;
+    padding: 0 15px;
+    line-height: 21.2592010498047px;
+}
+
+
 
 /* ==========================================================================
    Helper classes
