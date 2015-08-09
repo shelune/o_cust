@@ -33,7 +33,7 @@ html {
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #A85C72 none repeat scroll 0% 0%;
     text-shadow: none;
 }
 
@@ -288,7 +288,7 @@ button.md-blue:hover {
 }
 
 .main-content {
-
+    background: #fff;
 }
 
 .main-content__features,
@@ -296,6 +296,12 @@ button.md-blue:hover {
 .main-content__demonstrations {
     background: #fff;
     text-align: center;
+}
+
+.main-content__features {
+    background: #E3E3E3;
+    color: #2D2D2D;
+    padding-bottom: 45px;
 }
 
 .main-content__features .wrapper:first-child {
@@ -349,7 +355,7 @@ button.md-blue:hover {
 
 .features__cross-platform p {
     margin-top: -3px;
-    margin-left: -8px;
+    margin-left: -5px;
 }
 
 .features__instant-updates p {
@@ -415,6 +421,133 @@ button.md-blue:hover {
     padding: 0 15px;
     line-height: 21.2592010498047px;
 }
+
+.main-content__get-started {
+    margin-top: 51px;
+}
+
+.main-content__get-started .wrapper{
+
+}
+
+.main-content__get-started h3 {
+    color: #C39D5A;
+    font-weight: 500;
+    letter-spacing: -1.31667px;
+    font-size: 32.9667px;
+}
+
+.main-content__get-started h4 {
+    color: #9a9a9a;
+    font-weight: 400;
+    font-size: 21.423999786377px;
+    margin-top: -10px;
+}
+
+.get-started__organizations {
+    width: 1152px;
+    margin-top: 47px;
+    margin-left: -39px;
+}
+
+.get-started__organizations li {
+    display: inline-block;
+    width: 147px;
+    margin-right: -4px;
+    float: left;
+}
+
+.get-started__organizations h4 {
+    display: block;
+    font-size: 18.1280002593994px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 21.7536010742188px;
+    padding-bottom: 16.3152008056641px;
+    padding-top: 32.6304016113281px;
+    height: 41.6875px;
+}
+
+.get-started__organizations i {
+    display: block;
+    font-size: 54.3840026855469px;
+    line-height: 54.3840026855469px;
+    padding: 27.1920013427734px 0;
+    border-left: 1px solid #d7d7d7;
+    margin-bottom: 10px;
+}
+
+i.ucast-glyph-apple {
+    color: #6c6090;
+    border: none;
+}
+
+i.ucast-glyph-jersey{
+    color: #45ab9b;
+,}
+
+i.ucast-glyph-briefcase {
+    color: #b17438;
+}
+
+i.ucast-glyph-club {
+    color: #ab4d45;
+}
+
+i.ucast-glyph-event {
+    color: #a85c72;
+}
+
+i.ucast-glyph-church {
+    color: #c2aa4a;
+}
+
+i.ucast-glyph-charity {
+    color: #8eab45;
+}
+
+i.ucast-glyph-agency {
+    color: #4590ab;
+}
+
+i.ucast-glyph-apple ~ h4 {
+    background: #6c6090;
+}
+
+i.ucast-glyph-jersey ~ h4 {
+    background: #45ab9b;
+    padding-bottom: 27.1920013427734px;
+    padding-top: 21.7536010742188px;
+}
+
+i.ucast-glyph-briefcase ~ h4 {
+    background: #b17438;
+    padding-bottom: 27.1920013427734px;
+    padding-top: 21.7536010742188px;
+}
+
+i.ucast-glyph-club ~ h4 {
+    background: #ab4d45;
+}
+
+i.ucast-glyph-event ~ h4 {
+    background: #a85c72;
+}
+
+i.ucast-glyph-church ~ h4 {
+    background: #c2aa4a;
+}
+
+i.ucast-glyph-charity ~ h4 {
+    background: #8eab45;
+}
+
+i.ucast-glyph-agency ~ h4 {
+    background: #4590ab;
+    padding-bottom: 27.1920013427734px;
+    padding-top: 21.7536010742188px;
+}
+
 
 
 
