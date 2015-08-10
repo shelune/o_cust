@@ -614,6 +614,53 @@ i.ucast-glyph-agency ~ h4 {
     margin: 20px;
 }
 
+.main-content__start-now {
+    background: #2d2d2d;
+    padding: 41.1999969482422px 0;
+}
+
+.main-content__start-now .wrapper {
+    overflow: hidden;
+}
+
+.start-now__call-out {
+    text-align: center;
+    float: left;
+    width: 67%;
+}
+.main-content__start-now h3 {
+    color: #fff;
+    font-size: 32.9599990844727px;
+    letter-spacing: -1.31839990615845px;
+    font-weight: 500;
+    margin: 16.4799995422363px;
+}
+
+.main-content__start-now h4 {
+    color: #9a9a9a;
+    font-weight: 400;
+    font-size: 21.423999786377px;
+}
+
+.start-now__button {
+    width: 33%;
+    float: left;
+}
+
+button.md-green {
+    background: #8eab45;
+    font-size: 28.015998840332px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -1.68095993995667px;
+    border-radius: 4px;
+    box-shadow: #b0c775 0 2px 0 0 inset,#63792b 0 7px 0;
+    padding: 30.8175983428955px 25.2143993377686px;
+}
+
+button.md-green:hover {
+    background: #97b64a;
+}
 
 /* ==========================================================================
    Helper classes
