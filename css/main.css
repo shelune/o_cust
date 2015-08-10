@@ -548,7 +548,71 @@ i.ucast-glyph-agency ~ h4 {
     padding-top: 21.7536010742188px;
 }
 
+.main-content__demonstrations {
+    display: block;
+    margin-top: 227px;
+    background: #3a3a3a;
+    padding-bottom: 58px;
+}
 
+.main-content__demonstrations .wrapper {
+    overflow: hidden;
+}
+.main-content__demonstrations h3 {
+    color: #fff;
+    font-size: 32.9599990844727px;
+    font-weight: 500;
+    letter-spacing: -1.31839990615845px;
+    line-height: 42.8479995727539px;
+    padding-top: 37px;
+}
+
+.main-content__demonstrations h4 {
+    color: #9a9a9a;
+    font-size: 21.423999786377px;
+    font-weight: 400;
+    line-height: 30.4879989624023px;
+    margin-top: -15px;
+}
+
+.main-content__demonstrations span {
+    color: #C39D5A;
+}
+
+.demonstrations__layout {
+    background: #303030;
+    max-width: 1152px;
+    margin-top: 57px;
+}
+
+.layout__player {
+    height: 521.8125px;
+    width: 67%;
+    float: left;
+    background: #303030;
+}
+
+.player__screen {
+    background: #1e1e1e;
+    height: 390px;
+    width: 640px;
+    margin: 65.9199981689453px;
+    z-index: 100;
+}
+
+.layout__list {
+    background: #262626;
+    width: 33%;
+    float: right;
+    height: 522px;
+    border-radius: 0 4px 4px 0;
+}
+
+.list__list {
+    background: #222222;
+    height: 482px;
+    margin: 20px;
+}
 
 
 /* ==========================================================================
