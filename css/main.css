@@ -665,6 +665,68 @@ button.md-green:hover {
     background: #97b64a;
 }
 
+footer {
+    background: #1b1b1b;
+    padding: 16.4799995422363px 0 32.9599990844727px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .wrapper {
+    overflow: hidden;
+}
+
+.footer__left-nav {
+    color: #fff;
+    margin: 32px 0 0 -20.5px;
+    float: left;
+}
+
+.footer__left-nav li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.footer__left-nav a {
+    font-size: 19.4463996887207px;
+    font-weight: 300;
+}
+
+.footer__left-nav a:hover {
+    color: #a6a6a6;
+}
+
+.footer__social-sites {
+    float: right;
+    margin-top: 30px;
+}
+
+.footer__social-sites li {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.footer__social-sites i {
+    font-size: 29.5px;
+}
+
+.footer__copyright {
+    color: #595959;
+    font-size: 13.1840000152588px;
+    clear: both;
+}
+
+.footer__copyright i {
+    font-size: 78.6px;
+}
+
+.footer__copyright span {
+    margin-left: 10px;
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
